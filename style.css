@@ -120,9 +120,6 @@ th, li, tr, td{
     background-color: rgba(223, 129, 52, 0.116);
   }
 
-  tl{
-    background-color: bisque;
-  }
 
   ul{
     margin-left: 20px;
@@ -135,4 +132,11 @@ th, li, tr, td{
 p{
     color: white;
     font-size: 8rem;
+}
+
+#presentation{
+  width: 300px; 
+  height: auto; 
+  border-radius: 400px; 
+  margin-top: 120px;
 }
