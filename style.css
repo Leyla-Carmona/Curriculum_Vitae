@@ -6,7 +6,7 @@
 html {
   font-size: 62.5%;
 }
-
+/*
 body {
   font-family: 'Gill Sans';
   text-align: left;
@@ -18,50 +18,7 @@ body {
   margin: 0 auto;
 }
 
-header {
-  width: 100%;
-  height: 78px;
-  background: rgba(255, 149, 0, 0.486);
-}
-
-.logo {
-  float: left;
-  text-align: left;
-}
-
-.logo h1 {
-  text-decoration: none;
-  font-size: 2rem;
-  font-family: 'Times New Roman';
-  color: white;
-}
-
-.logo h2 {
-  font-size: 1.5rem;
-  font-family: 'Times New Roman';
-  color: white;
-  padding: 10px;
-}
-
-nav {
-  float: right;
-  line-height: 100px;
-  border: black;
-  border-width: 3px;
-}
-
-nav a {
-  text-decoration: none;
-  font-family: 'Lucida Sans';
-  font-size: 1.5rem;
-  color: white;
-}
-
-nav a:hover {
-  background: white;
-  color: black;
-}
-
+/*
 table {
   border-collapse: separate;
   border-spacing: 5px;
@@ -89,12 +46,6 @@ th {
   background: #eee;
 }
 
-#socialnetwork {
-  width: 40px;
-  height: auto;
-  border-radius: 25px;
-  display: inline;
-}
 
 .shadow-effect {
   border: none;
@@ -134,9 +85,10 @@ ul {
   height: 100%;
   width: auto;
 }
+
 p {
   color: white;
-  font-size: 4rem;
+  font-size: 10rem;
 }
 
 #presentation {
@@ -145,31 +97,141 @@ p {
   border-radius: 400px;
 }
 
-/*Telefono*/
+/*Telefono
 @media (min-width:320px) {
   #presentation {
-    width: 10%;
     height: auto;
     border-radius: 400px;
   }
 }
 
-/*Large phone devices*/
+/*Large phone devices
 @media (min-width:425px) {
   #presentation {
-    width: 10%;
     height: auto;
     border-radius: 400px;
     float: left;
   }
+}
+
+/*Large device
+@media (min-width:760px) {
+  #presentation {
+    height: auto;
+    border-radius: 400px;
+    float: left;
+  }
+}
+ */
+
+header{
+  width: 100%;
+}
+
+body{  
+  background-color: rgba(0, 0, 0, 0.048);
+}
+#name{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 20px;
+  height: 100%;
+}
+
+#navbar{
+  list-style-type: none;
+  text-align: center;  
+  display: inline-flex;
+}
+
+#nav{
+  padding-left:45%; 
+  margin-right: 5%; 
+}
+
+.nav a{
+  color: rgb(255, 255, 255);
+  transition-duration: 1.5s;
+  font-family: "Antic Slab", serif;
+  font-weight: 400;
+  font-size: 0.5rem;  
+}
+
+.nav a:hover {
+  color: rgb(52, 72, 97);
+  text-underline-offset: 2.6px; 
+  text-decoration: underline;
+  transition-duration: 1.5s;  
+  font-weight: bolder;
+}
+
+
+/*Telefono*/
+@media (min-width:320px) {
+  #presentation_table{
+    padding-left: 40%;
+    margin-right:15%;
+    width: 100%;
+  }
+  .presentation_table{
+    font-size: 0.8rem;
+  }
+  
+}
+
+/*Large phone devices*/
+@media (min-width:424px) {
+#presentation_table{
+  padding-left:45%;
+  margin-right: 5%;
+  width: 100%;
+}
+.presentation_table{
+  font-size: 1.3rem;
+}
+
 }
 
 /*Large device*/
 @media (min-width:760px) {
-  #presentation {
-    width: 10%;
-    height: auto;
-    border-radius: 400px;
-    float: left;
+  #presentation_table{
+    padding-left:45%;
+    margin-right: 5%;
+    width: 100%;
   }
+  .presentation_table{
+    font-size: 2.5rem;
+  }
+}
+
+figcaption{
+  font-size: 0.7rem;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-shadow: black;
+  font-size: 0.5rem;
+}
+
+#socialnetwork {
+  width: 10px;
+  height: auto;
+  border-radius: 25px;
+  display: inline;
+}
+
+.box {
+  height: auto;
+  flex-basis: 10rem;
+  flex-grow: 1;
+  padding: 5px;
+}
+
+
+.certifications li::marker{
+  color: green;
+  list-style-type: square;
+  margin-left: 25px;
 }
