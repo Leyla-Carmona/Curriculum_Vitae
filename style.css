@@ -21,8 +21,7 @@ body {
 header {
   width: 100%;
   height: 78px;
-  background: rgb(68, 60, 49);
-  position: fixed;
+  background: rgba(68, 60, 49, 0.486);
 }
 
 .logo {
@@ -68,9 +67,6 @@ table {
   border-collapse: separate;
   border-spacing: 5px;
   color: #fff;
-  margin-left: 20px;
-  margin-right: 20px;
-  margin-bottom: 20px;
   width: 100%;
 }
 
@@ -146,17 +142,35 @@ p {
 }
 
 #presentation {
-  width: 300px;
   height: auto;
   border-radius: 400px;
-  margin-top: 120px;
 }
 
 /*Telefono*/
-@media (min-width:320px) {}
+@media (min-width:320px) {
+  presentation {
+    width: 10%;
+    height: auto;
+    border-radius: 400px;
+  }
+}
 
 /*Large phone devices*/
-@media (min-width:425px) {}
+@media (min-width:425px) {
+  presentation {
+    width: 10%;
+    height: auto;
+    border-radius: 400px;
+    float: left;
+  }
+}
 
 /*Large device*/
-@media (min-width:760px) {}
+@media (min-width:760px) {
+  presentation {
+    width: 10%;
+    height: auto;
+    border-radius: 400px;
+    float: left;
+  }
+}
