@@ -231,7 +231,6 @@ a {
 
 
 .certifications li::marker{
-  color: green;
-  list-style-type: square;
-  margin-left: 25px;
+  color: rgb(100, 175, 100);
+  list-style-type: square
 }
