@@ -34,7 +34,6 @@ header {
   font-size: 2rem;
   font-family: 'Times New Roman';
   color: white;
-  padding: 10px;
 }
 
 .logo h2 {
@@ -135,20 +134,20 @@ ul {
   height: 100%;
   width: auto;
 }
-
 p {
   color: white;
-  font-size: 8rem;
+  font-size: 4rem;
 }
 
 #presentation {
+  width: 400px;
   height: auto;
   border-radius: 400px;
 }
 
 /*Telefono*/
 @media (min-width:320px) {
-  presentation {
+  #presentation {
     width: 10%;
     height: auto;
     border-radius: 400px;
@@ -157,7 +156,7 @@ p {
 
 /*Large phone devices*/
 @media (min-width:425px) {
-  presentation {
+  #presentation {
     width: 10%;
     height: auto;
     border-radius: 400px;
@@ -167,7 +166,7 @@ p {
 
 /*Large device*/
 @media (min-width:760px) {
-  presentation {
+  #presentation {
     width: 10%;
     height: auto;
     border-radius: 400px;
