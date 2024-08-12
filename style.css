@@ -124,7 +124,8 @@ tr{
 
   #experience{
     height: 100%;
-    width: 100%;
+    width: 100%;    
+    font-size: 1.2rem;
   }
 
   #laboralexperience{
@@ -185,10 +186,24 @@ tr{
   float: left;
 }
 
+#experience{
+  height: 100%;
+  width: 100%;    
+  font-size: 2rem;
+}
+
+#laboralexperience{
+  font-size: 1.8rem;
+  border-collapse: separate;
+  border-spacing: 2px; text-align: left;     
+  background-color: rgb(230, 218, 218);
+}
+
+
 #socialnetwork {
   width: 75px;
   height: auto;
-  border-radius: 25px;
+  border-radius: 300px;
   display: inline;
 }
 
