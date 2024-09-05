@@ -103,6 +103,7 @@ tr {
 
   #column {
     width: 110px;
+    padding: 6px;
     height: 75%;
     background-color: rgba(206, 122, 89, 0.753);
     margin-top: -8%;
