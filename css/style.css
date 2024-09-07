@@ -33,7 +33,6 @@ select {
   text-decoration: underline;
   transition-duration: 1.5s;
   font-weight: bolder;
-  cursor: pointer;
 }
 
 figure {
@@ -84,11 +83,6 @@ a, select {
 
 ul {
   list-style-position: inside;
-}
-
-.certifications li::marker {
-  color: rgb(100, 175, 100);
-  list-style-type: square;
 }
 
 tr {
