@@ -10,14 +10,17 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Antic+Slab&family=Montagu+Slab:opsz,wght@16..144,100..700&display=swap"
         rel="stylesheet">
+        <script src="javascript.js"></script>
     <title>Curriculum Vitae CV</title>
 </head>
 <header>
     <div class="nav" style="position: relative;">
         <ul id="navbar">
-            <li class="nav" style="padding-left: 10px;"><a class="nav"
-                    href="https://leyla-carmona.github.io/Portfolio/index_spanish.html"> Página en Español</a>
-            </li>
+            <li class="main-nav">|<a>Idioma:</a>
+                <Select id="languages" onchange="navigateToPage()">
+                <option value="index.html">Inglés</option>
+                <option value="spanishindex.html" selected>Español</option>
+            </Select></a></li>
             <li class="nav" style="padding-left: 10px;"><a class="nav"
                     href="https://leyla-carmona.github.io/Portfolio/"> Portafolio </a></li>
         </ul>
