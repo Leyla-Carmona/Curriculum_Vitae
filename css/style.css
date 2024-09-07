@@ -22,17 +22,18 @@ body {
   display: inline-flex;
 }
 
-Select {
+select {
   border: none;
   background-color: transparent;
 }
 
-.nav a:hover, .nav Select:hover {
+.nav a:hover, .nav select:hover {
   color: rgb(52, 72, 97);
   text-underline-offset: 2.6px;
   text-decoration: underline;
   transition-duration: 1.5s;
   font-weight: bolder;
+  cursor: pointer;
 }
 
 figure {
@@ -59,7 +60,7 @@ hr {
   border-width: 0.5px;
 }
 
-a, Select {
+a, select {
   text-decoration: none;
   color: black;
   font-weight: bold;
@@ -140,7 +141,7 @@ tr {
   li {
     margin-left: 10px;
   }
-  .nav a, .nav Select {
+  .nav a, .nav select {
     color: rgb(255, 255, 255);
     transition-duration: 1.5s;
     font-family: "Antic Slab", serif;
@@ -198,14 +199,14 @@ tr {
     border-radius: 300px;
     display: inline;
   }
-  a, Select {
+  a, select {
     text-decoration: none;
     color: black;
     font-weight: bold;
     text-shadow: black;
     font-size: 2rem;
   }
-  .nav a, .nav Select {
+  .nav a, .nav select {
     color: rgb(255, 255, 255);
     transition-duration: 1.5s;
     font-family: "Antic Slab", serif;

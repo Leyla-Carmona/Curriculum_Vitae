@@ -22,11 +22,10 @@ body {
   display: inline-flex;
 }
 
-
-Select{
-  @extend a;
-  border: none;
-  background-color: transparent;
+select{
+    @extend a;
+    border: none;
+    background-color: transparent;
 }
 
 .nav a:hover {
@@ -35,6 +34,7 @@ Select{
   text-decoration: underline;
   transition-duration: 1.5s;
   font-weight: bolder;
+  cursor:pointer;
 }
 
 figure {
