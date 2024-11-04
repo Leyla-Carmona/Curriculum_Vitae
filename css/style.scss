@@ -40,6 +40,9 @@ figure {
   align-items: center;
 }
 
+#column li{
+  list-style: none;
+}
 #photo {
   width: 80%;
   border-radius: 300px;
@@ -103,7 +106,7 @@ tr {
   }
 
   #column {
-    width: 115px;
+    width: 132px;
     padding: 9px;
     height: 75%;
     background-color: rgba(206, 122, 89, 0.753);
@@ -117,7 +120,7 @@ tr {
 
   figcaption {
     width: 105px;
-    font-size: 0.9rem;
+    font-size: 1em;
   }
 
   #secondcolumn {
@@ -141,7 +144,7 @@ tr {
   }
 
   li {
-    margin-left: 10px;
+    margin-left: 20px;
   }
 
   .nav a {
