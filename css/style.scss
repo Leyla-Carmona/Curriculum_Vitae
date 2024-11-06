@@ -106,8 +106,8 @@ tr {
   }
 
   #column {
-    width: 150px;
-    padding: 9px;
+    width: 163px;
+    padding: 6px;
     height: 75%;
     background-color: rgba(206, 122, 89, 0.753);
     margin-top: -8%;
@@ -133,7 +133,8 @@ tr {
   #experience {
     height: 100%;
     width: 100%;
-    font-size: 0.97rem;
+    font-size: 0.97rem;    
+    clear: both;
   }
 
   #laboralexperience {
@@ -241,7 +242,7 @@ tr {
   }
 
   figcaption {
-    width: 100%;
+    width: 320px;
     font-size: 2rem;
   }
 
@@ -286,5 +287,12 @@ tr {
 
   #photo {
     width: 270px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #experience{
+    width: 100%;
+    clear: inline-end;
   }
 }
