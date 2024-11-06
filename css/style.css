@@ -14,6 +14,7 @@ header {
 
 body {
   background-color: rgb(230, 218, 218);
+  font-family: "inter";
 }
 
 #navbar {
@@ -66,7 +67,6 @@ hr {
 a, select {
   text-decoration: none;
   color: black;
-  font-weight: bold;
   text-shadow: black;
   font-size: 1rem;
 }
@@ -104,30 +104,31 @@ tr {
     font-size: 0.8rem;
   }
   #column {
-    width: 132px;
+    width: 150px;
     padding: 9px;
     height: 75%;
     background-color: rgba(206, 122, 89, 0.753);
     margin-top: -8%;
     margin-left: 10px;
-    margin-right: 12px;
+    margin-right: 10px;
     text-align: justify;
     white-space: break-word;
     float: left;
   }
   figcaption {
-    width: 105px;
-    font-size: 1em;
+    width: 145px;
+    font-size: 0.9rem;
   }
   #secondcolumn {
     position: static;
     margin-left: 125px;
-    font-size: 1.14rem;
+    font-size: 0.97rem;
+    margin-right: 10px;
   }
   #experience {
     height: 100%;
     width: 100%;
-    font-size: 1.2rem;
+    font-size: 0.97rem;
   }
   #laboralexperience {
     font-size: 0.8rem;
@@ -157,6 +158,9 @@ tr {
     font-size: 20px;
     height: 100%;
   }
+  h1 {
+    font-size: 1rem;
+  }
 }
 /*Large device*/
 @media (min-width: 760px) {
@@ -169,7 +173,7 @@ tr {
     font-size: 2rem;
   }
   #column {
-    width: 300px;
+    width: 325px;
     height: auto;
     margin-top: -35px;
     background-color: rgba(206, 122, 89, 0.753);
@@ -212,7 +216,7 @@ tr {
     font-size: 2rem;
   }
   figcaption {
-    width: 295px;
+    width: 320px;
     font-size: 2rem;
   }
   #secondcolumn {
@@ -243,5 +247,8 @@ tr {
     text-align: center;
     font-size: 40rem;
     height: 100%;
+  }
+  h1 {
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=style.css.map */
