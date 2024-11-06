@@ -46,7 +46,6 @@ figure {
   list-style: none;
 }
 #photo {
-  width: 80%;
   border-radius: 300px;
   padding-left: 3%;
   padding-top: 3%;
@@ -173,7 +172,9 @@ tr {
   h1{
     font-size: 1rem;
   }
-
+  #photo {
+    width: 125px;
+  }
 }
 
 /*Large device*/
@@ -190,7 +191,7 @@ tr {
   }
 
   #column {
-    width: 325px;
+    width: auto;
     height: auto;
     margin-top: -35px;
     background-color: rgba(206, 122, 89, 0.753);
@@ -283,4 +284,7 @@ tr {
     font-size: 2rem;
   }
 
+  #photo {
+    width: 270px;
+  }
 }
